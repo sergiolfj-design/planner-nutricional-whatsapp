@@ -1,8 +1,6 @@
 {
   "buildCommand": "pip install -r backend/requirements.txt",
   "outputDirectory": "backend",
-  "framework": "python",
-  "runtime": "python3.11",
   "functions": {
     "backend/main.py": {
       "runtime": "python3.11"
