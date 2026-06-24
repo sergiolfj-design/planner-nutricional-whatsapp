@@ -1,7 +1,5 @@
 {
-  "buildCommand": "pip install -r backend/requirements.txt",
-  "outputDirectory": "backend",
-  "env": {
-    "PYTHONUNBUFFERED": "1"
-  }
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
 }
