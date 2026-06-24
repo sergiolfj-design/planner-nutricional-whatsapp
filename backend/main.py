@@ -1,3 +1,4 @@
+
 """
 Sistema de Planner Nutricional via WhatsApp
 Backend FastAPI - Main Application
@@ -13,7 +14,7 @@ import os
 from dotenv import load_dotenv
 
 # Importar routers
-from app.routes import (
+from routes import (
     nutricionista_routes,
     paciente_routes,
     meta_routes,
