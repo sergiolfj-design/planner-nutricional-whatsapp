@@ -1,39 +1,11 @@
 {
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "5b061b7d",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "{\n",
-    "  \"buildCommand\": \"cd backend && pip install -r requirements.txt\",\n",
-    "  \"outputDirectory\": \"backend\",\n",
-    "  \"framework\": \"python\",\n",
-    "  \"env\": {\n",
-    "    \"PYTHONUNBUFFERED\": \"1\"\n",
-    "  },\n",
-    "  \"functions\": {\n",
-    "    \"backend/main.py\": {\n",
-    "      \"runtime\": \"python3.11\"\n",
-    "    }\n",
-    "  },\n",
-    "  \"routes\": [\n",
-    "    {\n",
-    "      \"src\": \"/(.*)\",\n",
-    "      \"dest\": \"backend/main.py\"\n",
-    "    }\n",
-    "  ]\n",
-    "}"
-   ]
+  "buildCommand": "pip install -r backend/requirements.txt",
+  "outputDirectory": "backend",
+  "framework": "python",
+  "runtime": "python3.11",
+  "functions": {
+    "backend/main.py": {
+      "runtime": "python3.11"
+    }
   }
- ],
- "metadata": {
-  "language_info": {
-   "name": "python"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
 }
