@@ -14,7 +14,7 @@ import os
 from dotenv import load_dotenv
 
 # Importar routers
-from routes import (
+from app.routes import (
     nutricionista_routes,
     paciente_routes,
     meta_routes,
